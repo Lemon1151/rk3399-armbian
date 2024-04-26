@@ -101,7 +101,7 @@ beta_kernel=(${stable_kernel[@]})
 auto_kernel="true"
 
 # Initialize the build device
-build_board="all"
+build_board="rockchip"
 
 # Set Armbian size (Unit: MiB, boot_mb >= 256, root_mb >= 2048)
 boot_mb="512"
