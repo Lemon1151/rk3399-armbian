@@ -19,7 +19,7 @@ inputs:
   kernel_repo:
     description: "Set kernel repository."
     required: false
-    default: "Lemon1151/kernel"
+    default: "ophub/kernel"
   kernel_usage:
     description: "Set the tags of the stable kernel."
     required: false
@@ -27,7 +27,7 @@ inputs:
   armbian_kernel:
     description: "Set kernel version."
     required: false
-    default: "6.8.y"
+    default: "6.6.y"
   auto_kernel:
     description: "Auto use the latest kernel."
     required: false
@@ -52,7 +52,7 @@ inputs:
   kernel_version:
     description: "Select kernel version"
     required: false
-    default: "6.8.y"
+    default: "6.6.y"
   kernel_auto:
     description: "Auto use the latest kernel"
     required: false
@@ -64,7 +64,7 @@ inputs:
   kernel_sign:
     description: "Set the kernel custom signature"
     required: false
-    default: "-Lemon1151"
+    default: "-ophub"
   kernel_toolchain:
     description: "Select the compilation toolchain"
     required: false
