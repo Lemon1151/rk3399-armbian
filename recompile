@@ -62,24 +62,24 @@ host_release="$(cat /etc/os-release | grep '^VERSION_CODENAME=.*' | cut -d'=' -f
 # Set the default for downloading kernel sources from github.com
 repo_owner="unifreq"
 repo_branch="main"
-build_kernel=("6.1.y" "6.6.y")
+build_kernel=("6.1.y" "6.6.y" "6.8.y")
 # Set whether to use the latest kernel, options: [ true / false ]
 auto_kernel="true"
 # Set whether to apply custom kernel patches, options: [ true / false ]
 auto_patch="false"
 # Set custom signature for the kernel
-custom_name="-ophub"
+custom_name="-Lemon1151"
 # Set the kernel compile object, options: [ dtbs / all ]
 package_list="all"
 # Set the compression format, options: [ gzip / lzma / xz / zstd ]
 compress_format="xz"
 
 # Cross compile toolchain download mirror
-dev_repo="https://github.com/ophub/kernel/releases/download/dev"
+dev_repo="https://github.com/Lemon1151/rk3399-armbian/releases/download/dev"
 # Arm GNU Toolchain source: https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads
 gun_file_x86_64="arm-gnu-toolchain-13.2.rel1-x86_64-aarch64-none-linux-gnu.tar.xz"
 gun_file_aarch64="arm-gnu-toolchain-13.2.rel1-aarch64-aarch64-none-elf.tar.xz"
-# Armenian file source: https://github.com/ophub/amlogic-s9xxx-armbian/releases
+# Armenian file source: https://github.com/Lemon1151/rk3399-armbian/releases
 armbian_rootfs_file="armbian.tar.xz"
 # Set the toolchain path
 toolchain_path="/usr/local/toolchain"
