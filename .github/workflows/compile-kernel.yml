@@ -25,13 +25,12 @@ on:
         type: choice
         options:
           - 5.4.y
-          - 5.10.y
+          - 5.10.215
           - 5.15.y
           - 6.1.y
           - 6.6.y
-          - 6.1.y_6.6.y
-          - 6.1.y_5.15.y
-          - 5.4.y_5.10.y
+          - 6.6.28
+          - 6.8.7
       kernel_auto:
         description: "Auto use the latest kernel"
         required: false
@@ -136,7 +135,7 @@ jobs:
           echo "status=success" >> ${GITHUB_OUTPUT}
 
       - name: Compile the kernel [ ${{ inputs.kernel_version }} ]
-        uses: ophub/amlogic-s9xxx-armbian@main
+        uses: Lemon1151/amlogic-s9xxx-armbian@main
         if: ${{ steps.mapped.outputs.status }} == 'success' && !cancelled()
         with:
           build_target: kernel
