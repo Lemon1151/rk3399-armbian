@@ -1,5 +1,5 @@
 name: "Rebuild Armbian and Kernel"
-author: "https://github.com/torvalds/linux"
+author: "https://github.com/Lemon1151/rk3399-armbian"
 description: "Support Amlogic, Rockchip and Allwinner boxes."
 inputs:
   # Select build target
