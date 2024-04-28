@@ -64,7 +64,7 @@ inputs:
   kernel_sign:
     description: "Set the kernel custom signature"
     required: false
-    default: "-ophub"
+    default: "-Lemon1151"
   kernel_toolchain:
     description: "Select the compilation toolchain"
     required: false
