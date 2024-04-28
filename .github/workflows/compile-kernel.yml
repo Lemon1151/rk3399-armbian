@@ -24,13 +24,12 @@ on:
         default: "6.6.y"
         type: choice
         options:
-          - 5.4.y
           - 5.10.215
-          - 5.15.y
+          - 5.10.y
+          - 6.1.81
           - 6.1.y
-          - 6.6.y
           - 6.6.28
-          - 6.8.7
+          - 6.6.y
       kernel_auto:
         description: "Auto use the latest kernel"
         required: false
@@ -69,7 +68,7 @@ on:
         type: choice
         options:
           - -ophub
-          - -yourname
+          - -Lemon1151
 
 env:
   TZ: America/New_York
