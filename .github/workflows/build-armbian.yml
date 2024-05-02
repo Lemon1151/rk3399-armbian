@@ -175,10 +175,10 @@ on:
       kernel_repo:
         description: "Set the kernel repository."
         required: false
-        default: "ophub/kernel"
+        default: "Lemon1151/kernel"
         type: choice
         options:
-          - ophub/kernel
+          - Lemon1151
       kernel_usage:
         description: "Set the tags of the stable kernel."
         required: false
@@ -208,12 +208,12 @@ on:
       builder_name:
         description: "Set Armbian builder signature."
         required: false
-        default: "ophub"
+        default: "Lemon1151"
         type: choice
         options:
           - ophub
           - angel
-          - yourname
+          - Lemon1151
 
 env:
   TZ: America/New_York
