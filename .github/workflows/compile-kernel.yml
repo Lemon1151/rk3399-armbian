@@ -21,13 +21,15 @@ on:
       kernel_version:
         description: "Select kernel version"
         required: false
-        default: "6.6.29"
+        default: "6.6.y"
         type: choice
         options:
           - 5.10.210
           - 5.10.215
+          - 6.1.y
           - 6.1.81
           - 6.1.88
+          - 6.6.y
           - 6.6.28
           - 6.6.29
           - 6.6.30
