@@ -28,10 +28,11 @@ on:
           - 5.10.215
           - 6.1.y
           - 6.1.81
+          - 6.1.86
           - 6.1.88
           - 6.6.y
+          - 6.6.26
           - 6.6.28
-          - 6.6.29
           - 6.6.30
       kernel_auto:
         description: "Auto use the latest kernel"
