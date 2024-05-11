@@ -163,10 +163,11 @@ on:
         options:
           - 5.10.210
           - 5.10.215
+          - 5.10.216
           - 6.1.81
-          - 6.1.87
-          - 6.6.26
+          - 6.1.90
           - 6.6.28
+          - 6.6.30
       auto_kernel:
         description: "Auto use the latest kernel."
         required: false
