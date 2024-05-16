@@ -178,7 +178,7 @@ tolog "59. Disable the ssh.socket and enable ssh.service"
 
     # Add default KERNEL_REPO (Kernel download repository)
     [[ -n "$(cat ${ophub_release_file} | grep -E "^KERNEL_REPO=")" ]] || {
-        echo "KERNEL_REPO='ophub/kernel'" >>${ophub_release_file}
+        echo "KERNEL_REPO='Lemon1151/kernel'" >>${ophub_release_file}
         tolog "83. Add the custom KERNEL_REPO URL"
     }
 
