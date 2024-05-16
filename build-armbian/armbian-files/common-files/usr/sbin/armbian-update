@@ -218,7 +218,7 @@ init_var() {
     [[ -z "${current_kernel}" ]] && error_msg "Failed to query the current kernel version."
 
     # Adjust the custom kernel repository url format
-    [[ -z "${KERNEL_REPO}" ]] && KERNEL_REPO="ophub/kernel"
+    [[ -z "${KERNEL_REPO}" ]] && KERNEL_REPO="Lemon1151/kernel"
     [[ "${KERNEL_REPO}" =~ ^https: ]] && KERNEL_REPO="$(echo ${KERNEL_REPO} | awk -F'/' '{print $4"/"$5}')"
     kernel_api="https://github.com/${KERNEL_REPO}"
 
