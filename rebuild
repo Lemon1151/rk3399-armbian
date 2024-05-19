@@ -72,7 +72,7 @@ os_release_file="etc/os-release"
 # Set banner's ${BOARD_NAME}: such as [ s905x3 ]
 armbian_release_file="etc/armbian-release"
 # Add custom armbian information
-ophub_release_file="etc/ophub-release"
+ophub_release_file="etc/Lemon1151-release"
 
 # U-BOOT files download repository
 uboot_repo="https://github.com/ophub/u-boot"
