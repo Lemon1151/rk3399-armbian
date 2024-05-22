@@ -24,7 +24,7 @@
 #==========================================================================
 #
 # Armbian firmware config info record file
-ophub_release_file="/etc/ophub-release"
+ophub_release_file="/etc/Lemon1151-release"
 # The script files download repository
 script_repo="https://github.com/ophub/amlogic-s9xxx-armbian.git"
 script_dir="build-armbian/armbian-files"
