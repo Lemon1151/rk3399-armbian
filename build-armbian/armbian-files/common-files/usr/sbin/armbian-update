@@ -47,7 +47,7 @@ backup_path="/ddbr/backup"
 # Set kernel rescue temporary directory
 rescue_path="/ddbr/rescue"
 # Set the release check file
-ophub_release_file="/etc/ophub-release"
+ophub_release_file="/etc/Lemon1151-release"
 # Set default installation mainline u-boot (-m)
 auto_mainline_uboot="no"
 
