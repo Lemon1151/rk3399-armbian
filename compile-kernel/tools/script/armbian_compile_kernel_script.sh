@@ -60,7 +60,7 @@ modules_backup_path="${tmp_backup_path}/modules"
 arch_info="$(uname -m)"
 host_release="$(cat /etc/os-release | grep '^VERSION_CODENAME=.*' | cut -d"=" -f2)"
 initramfs_conf="/etc/initramfs-tools/update-initramfs.conf"
-ophub_release_file="/etc/ophub-release"
+ophub_release_file="/etc/Lemon1151-release"
 
 # Set the default for downloading kernel sources from github.com
 repo_owner="unifreq"
