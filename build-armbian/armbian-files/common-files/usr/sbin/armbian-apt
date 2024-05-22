@@ -28,7 +28,7 @@ armbian_source_file="/etc/apt/sources.list"
 armbian_source_backup_file="/etc/apt/sources.list.d/sources.list.bak"
 armbian_list_file="/etc/apt/sources.list.d/armbian.list"
 # Get custom firmware information
-ophub_release_file="/etc/ophub-release"
+ophub_release_file="/etc/Lemon1151-release"
 
 # Set font color
 STEPS="[\033[95m STEPS \033[0m]"
