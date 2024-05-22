@@ -21,7 +21,7 @@ armbian_release_file="/etc/armbian-release"
 armbian_image_file="/etc/armbian-image-release"
 armbian_os_status="/etc/armbian-distribution-status"
 # Set the ophub release check file
-ophub_release_file="/etc/ophub-release"
+ophub_release_file="/etc/Lemon1151-release"
 # Custom armbian-fix Log
 fix_log="/tmp/armbian-fix.log"
 #
