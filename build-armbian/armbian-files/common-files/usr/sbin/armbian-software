@@ -31,7 +31,7 @@
 # Related file storage path
 software_path="/usr/share/ophub/armbian-software"
 software_conf="${software_path}/software-list.conf"
-ophub_release_file="/etc/ophub-release"
+ophub_release_file="/etc/Lemon1151-release"
 arch_info="$(arch)"
 #
 # The compile kernel scripts download repository
