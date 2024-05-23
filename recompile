@@ -429,7 +429,7 @@ chroot_armbian() {
     mount_try ${loop_armbian}p2 ${tag_rootfs}
     mount_try ${loop_armbian}p1 ${tag_rootfs}/boot
 
-    ARMBIAN_PLATFORM="$(cat ${tag_rootfs}/etc/ophub-release 2>/dev/null | grep -E "^PLATFORM=.*" | cut -d"'" -f2)"
+    ARMBIAN_PLATFORM="$(cat ${tag_rootfs}/etc/Lemon1151-release 2>/dev/null | grep -E "^PLATFORM=.*" | cut -d"'" -f2)"
     echo -e "${INFO} Armbian PLATFORM: [ ${ARMBIAN_PLATFORM} ]"
 
     echo -e "${INFO} Copy the kernel files to the armbian system..."
