@@ -21,7 +21,7 @@ custom_log="/tmp/ophub_start_service.log"
 echo "[$(date +"%Y.%m.%d.%H:%M:%S")] Start the custom service..." >${custom_log}
 
 # Set the release check file
-ophub_release_file="/etc/ophub-release"
+ophub_release_file="/etc/Lemon1151-release"
 [[ -f "${ophub_release_file}" ]] && FDT_FILE="$(cat ${ophub_release_file} | grep -oE 'meson.*dtb')" || FDT_FILE=""
 # For Tencent Aurora 3Pro (s905x3-b) box [ /etc/modprobe.d/blacklist.conf : blacklist btmtksdio ]
 [[ "${FDT_FILE}" == "meson-sm1-skyworth-lb2004-a4091.dtb" ]] && {
