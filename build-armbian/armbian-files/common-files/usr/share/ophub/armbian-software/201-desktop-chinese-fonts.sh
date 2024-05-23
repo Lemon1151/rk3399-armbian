@@ -24,7 +24,7 @@
 #========================== Set default parameters ==========================
 #
 # Get custom firmware information
-ophub_release_file="/etc/ophub-release"
+ophub_release_file="/etc/Lemon1151-release"
 
 # Set font color
 STEPS="[\033[95m STEPS \033[0m]"
