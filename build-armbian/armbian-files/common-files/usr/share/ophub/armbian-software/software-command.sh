@@ -30,7 +30,7 @@
 # Get custom firmware information
 software_path="/usr/share/ophub/armbian-software"
 command_docker="${software_path}/command-docker.sh"
-ophub_release_file="/etc/ophub-release"
+ophub_release_file="/etc/Lemon1151-release"
 #
 # Docker-related default settings
 docker_path="/opt/docker"
