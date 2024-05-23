@@ -644,7 +644,11 @@ make_image() {
     rm -f ${build_image_file}
 
     IMG_SIZE="$((skip_mb + boot_mb + root_mb))"
-    truncate -s ${IMG_SIZE}M ${build_image_file} >/dev/null 2>&1
+    # 转换为字节  
+    IMG_SIZE_BYTES="$((IMG_SIZE * 1024 * 1024))" 
+    # 使用 dd 命令创建文件，并指定块大小为 512k  
+    dd if=/dev/zero of=${build_image_file} bs=512k count=0 seek=$((IMG_SIZE_BYTES / 512 / 1024)) oflag=sync >/dev/null 2>&1
+    #truncate -s ${IMG_SIZE}M ${build_image_file} >/dev/null 2>&1
 
     parted -s ${build_image_file} mklabel ${partition_table_type} 2>/dev/null
     parted -s ${build_image_file} mkpart primary ${bootfs_type} $((skip_mb))MiB $((skip_mb + boot_mb - 1))MiB 2>/dev/null
