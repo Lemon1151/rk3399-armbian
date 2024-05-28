@@ -16,13 +16,13 @@ on:
       armbian_board:
         description: "Select device board."
         required: false
-        default: "xiaobao-nas"
+        default: "xiaobao"
         type: choice
         options:
           - all
           - s905w_s905x_s905mb_s905l3a_s905l3b_s905x2_s905x3_s912_s922x_s922x-ct2000_s922x-reva
           - s905x3-x88-pro-x3_s912-m8s-pro_s905x-t95_s912-t95z-plus_s905l3-unt400g1_s905lb-r3300l
-          - seewo-sv21_smart-am40_station-m1_sw799_tn3399_zysj_tvi3315a_xiaobao-nas_zcube1-max
+          - seewo-sv21_smart-am40_station-m1_sw799_tn3399_zysj_tvi3315a_xiaobao_zcube1-max
           - vplus_tanix-tx6_tqc-a01
           - a311d
           - beikeyun
@@ -156,11 +156,11 @@ on:
         type: choice
         options:
           - 5.10.210
-          - 5.10.215
+          - 5.10.218
           - 6.1.81
-          - 6.1.86
-          - 6.6.26
-          - 6.6.28
+          - 6.1.91
+          - 6.6.30
+          - 6.6.32
       auto_kernel:
         description: "Auto use the latest kernel."
         required: false
