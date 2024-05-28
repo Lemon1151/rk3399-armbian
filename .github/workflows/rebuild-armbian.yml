@@ -146,7 +146,7 @@ on:
           - tqc-a01
           - tvi3315a
           - vplus
-          - xiaobao-nas
+          - xiaobao
           - zcube1-max
           - zysj
       armbian_kernel:
