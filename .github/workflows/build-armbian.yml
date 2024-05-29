@@ -22,7 +22,7 @@ on:
       armbian_board:
         description: "Select device board."
         required: false
-        default: "xiaobao"
+        default: "fine3399"
         type: choice
         options:
           - all
@@ -153,6 +153,7 @@ on:
           - tvi3315a
           - vplus
           - xiaobao
+          - xiaobao_fine3399
           - zcube1-max
           - zysj
       armbian_kernel:
