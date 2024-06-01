@@ -781,6 +781,13 @@ copy_files() {
     # Copy the overload files
     [[ "${PLATFORM}" == "amlogic" ]] && cp -rf ${uboot_path}/${PLATFORM}/overload/* ${tag_bootfs}
 
+    # Copy the Fine3399 wifi AP6236 firmware
+    if [[ "${board}" == "fine3399" ]]; then
+        fine3399_brcm="${different_files}/${board}/brcm"
+        [[ -d "${fine3399_brcm}" ]] && cp -af ${fine3399_brcm}/* ${tag_rootfs}/usr/lib/firmware/brcm
+        echo -e "Fine3399 AP6236固件添加成功"
+    fi
+
     # Remove the .git directories
     rm -rf $(find ${tmp_build} -type d -name '.git')
 }
