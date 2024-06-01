@@ -1,5 +1,5 @@
 ## 关于小宝nas
-Lollipop907大佬适配的dtshttps://github.com/Lollipop907/XiaoBaoNASv1_Firmware
+Lollipop907大佬适配的dtshttps://github.com/Lollipop907/XiaoBaoNASv1_Firmware  
 更换了dts/dtb已经可以正常识别SATA了
 
 # Armbian / 岸边
