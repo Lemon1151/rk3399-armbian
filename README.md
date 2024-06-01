@@ -1,5 +1,6 @@
-> [!NOTE]
-> 由于内核中 `/boot/vmlinuz-xxx` 文件从 `32MB` 调整到了 `64MB`，所以必须使用最新的 `armbian-update` 脚本来更新内核，否则会导致内核更新失败，造成 Armbian 系统无法正常启动。请查看文档[第 12.9 节](documents/README.cn.md#129-如何更新系统中的服务脚本)的脚本升级方法。
+## 关于小宝nas
+Lollipop907大佬适配的dtshttps://github.com/Lollipop907/XiaoBaoNASv1_Firmware
+更换了dts/dtb已经可以正常识别SATA了
 
 # Armbian / 岸边
 
