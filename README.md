@@ -1,11 +1,3 @@
-### 关于小宝nas
-Lollipop907大佬适配的dts https://github.com/Lollipop907/XiaoBaoNASv1_Firmware  
-更换了dts/dtb已经可以正常识别SATA了
-
-### 关于fine3399
-ophub大佬release出来的Fine3399镜像直接烧录，无法正常启动，原因是uboot问题  
-通过拉取armbian/build源码，添加基于cm9vdA大佬仓库里的fine3399_defconfig和DTS修改的patch，进行本地编译生成的固件可以正常工作也能tf卡启动；  
-把本地编译生成的u-boot上传到u-boot仓库，进行云编译编译，得到的固件系统能正常工作，包括双网口，HDMI，PCIE设备，蓝色led
 
 # Armbian / 岸边
 
