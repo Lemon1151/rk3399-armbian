@@ -13,9 +13,10 @@ on:
       kernel_source:
         description: "Select the kernel source"
         required: false
-        default: "unifreq"
+        default: "Lemon1151"
         type: choice
         options:
+          - Lemon1151
           - unifreq
           - codesnas
       kernel_version:
